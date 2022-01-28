@@ -1,0 +1,38 @@
+
+section {
+    background-color: rgb(42, 153, 180);
+    /* margins are the outside of the box */
+    margin-left: 100px;
+    /* paddings are the inside of the box */
+    padding-left: 100px;
+}
+h1 {
+    text-align: center;
+}
+
+.p {
+background-color: rgb(198, 201, 67);
+/* margin-top: 100px;
+margin-bottom: 100px;
+margin-left: 100px;
+margin-right: 100px;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-left: 40px;
+padding-right: 40px; */
+/* margin: 100px;
+padding: 40px; */
+/* 2 values: 1st value is top and bottom, 2nd value is left and right */
+/* margin 순서 : top, horizontal, bottom */
+/* margin: 100px 60px 33px; */
+/* order is: top right bottom left (clockwise) . trbl */
+margin: 40px 100px 25px 84px;
+}
+
+.p2 {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}

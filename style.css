@@ -1,0 +1,104 @@
+/* CSS: Cascading Stylesheet */
+
+/* 
+ Accessibility types
+ 1. Permanent disability: blind and deaf for example
+ 2. Temporary disability: break a leg and using crutches
+ 3. Situational disability: holding a baby or cup of coffee and using your laptop at the same time
+
+ Jan 1 2025: Law will require all Canadian websites to meet the AA accessibility quidelines
+
+ Jan 1 2021: all companies with 50+ employess must have an accessible wesite (AA accessibility guideline)
+
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* selector */
+  header {
+    /* background-color: beige; */
+    /* hex unit: 0 to 9 and A to F */
+    /* background-color: #009abe */
+    background-color: #000;
+    color: #fff;
+  }
+  /* h1 ::before {
+    content: "new";
+  } */
+
+  h1 ::after {
+    content: "new";
+    font-size: 12px;
+    background-color: #d342a2;
+    padding: 40px;
+  }
+
+  h2{
+    color: yellow;
+  }
+  
+  p {
+    font-size: 30px;
+  }
+  
+  
+
+  a {
+    color: pink;
+  }
+  /* Combining selectors */
+  div a {
+    color: red;
+    display: block;
+  }
+  
+  .item-special {
+    color: #000;
+   /* color: #bada55; */
+   /* rgb: red, green, and blue */
+   /* color: rgb(0, 0, 0, 0.5); */
+    opacity: 0.5
+  }
+
+  #paragraph {
+    color: #976060;
+  }
+
+  #paragraph2 {
+    background-color: #6495ed;
+  }
+
+  button {
+    /* none property value is also valid*/
+    border: 0;
+    padding: 20px;
+    background-color: #e12342;
+    border-radius: 8px;
+    color: #fff;
+    text-transform: capitalize;
+  }
+
+  /* combining selectors*/
+  section p {
+    font-size: 100px;
+  }
+  section p::first-letter{
+    color: tomato;
+
+  }
+  /* grouping selectors*/
+
+  header,
+  footer {
+    background-color: #000;
+
+  }
+
+  
+
+  .skip {
+    background-color: rgb(191, 28, 212);
+    
+  }
